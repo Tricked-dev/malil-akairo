@@ -36,7 +36,7 @@ export default class BotListCommand extends Command {
             "shard_id": this.client.shard.ids[0]
         }
         try {
-            let res = await centra("https://top.gg/api/bots/749020331187896410/stats", "post")
+            const res = await centra("https://top.gg/api/bots/749020331187896410/stats", "post")
                 .header("Authorization", this.client.setting.bottokens.topgg)
                 .body(topgg)
                 .send()
@@ -50,7 +50,7 @@ export default class BotListCommand extends Command {
             "shard_id": this.client.shard.ids[0]
         }
         try {
-            let res = await centra("https://discordbotlist.com/api/v1/bots/749020331187896410/stats", "post")
+            const res = await centra("https://discordbotlist.com/api/v1/bots/749020331187896410/stats", "post")
                 .header("Authorization", this.client.setting.bottokens.discordbotlist)
                 .body(discordbotlist)
                 .send()
@@ -63,7 +63,7 @@ export default class BotListCommand extends Command {
             "shardcount": this.client.shard.ids.length
         }
         try {
-            let res = await centra("https://bladebotlist.xyz/api/bots/749020331187896410/stats", "post")
+            const res = await centra("https://bladebotlist.xyz/api/bots/749020331187896410/stats", "post")
                 .header("Authorization", this.client.setting.bottokens.Bladebnots)
                 .body(bladebotlist)
                 .send()
@@ -77,7 +77,7 @@ export default class BotListCommand extends Command {
             "shardcount": this.client.shard.ids.length
         }
         try {
-            let res = await centra("https://api.discordextremelist.xyz/v2/bot/749020331187896410/stats", "post")
+            const res = await centra("https://api.discordextremelist.xyz/v2/bot/749020331187896410/stats", "post")
                 .header("Authorization", this.client.setting.bottokens.discordextreme)
                 .body(discordextremelist)
                 .send()
@@ -92,7 +92,7 @@ export default class BotListCommand extends Command {
 
         try {
 
-            let res = await centra("https://discord.bots.gg/api/v1/bots/749020331187896410/stats", "post")
+            const res = await centra("https://discord.bots.gg/api/v1/bots/749020331187896410/stats", "post")
                 .header("Authorization", this.client.setting.bottokens.botsgg)
                 .body(botsgg)
                 .send()
