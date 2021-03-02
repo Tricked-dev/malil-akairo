@@ -109,8 +109,8 @@ export default class Ready extends Listener {
 	}
 }
 function cleanEmojiDiscriminator(emojiDiscriminator) {
-	var regEx = /[A-Za-z0-9_]+:[0-9]+/
-	var cleaned = regEx.exec(emojiDiscriminator)
+	const regEx = /[A-Za-z0-9_]+:[0-9]+/
+	const cleaned = regEx.exec(emojiDiscriminator)
 	if (cleaned) return cleaned[0]
 	return emojiDiscriminator
 }
