@@ -1,7 +1,7 @@
 import { main, sec } from '../lib/Utils';
 const { log } = console;
 let curStats = []
-let CurStats = []
+const CurStats = []
 module.exports = {
 	name: 'stats',
 	delay: '30m',
