@@ -51,7 +51,7 @@ export default class BanCommand extends Command {
 		{ day, reason }: { user: GuildMember; day: number; reason: string }
 	) {
 
-		let user = await GetMember(message, reason);
+		const user = await GetMember(message, reason);
 		if (!user) return message.reply('user not found');
 		reason = reason.split(" ").slice(1).join(" ")
 		if (!user.bannable)
