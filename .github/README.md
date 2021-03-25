@@ -1,9 +1,9 @@
 # MALIL
-Malil is a must have all in one bot with tons of commands to enjoy
+Malil is a must have all in one bot with tons of commands to enjoy. 
 To view the list of commands in discord you can use *help
-So where are you waiting for give malil a try
+What are you waiting for? Give Malil a try!
 
-List of awesome commands you can use in your server if you invite malil
+List of awesome commands you can use in your server if you invite Malil:
 
 # Fun
 8ball : Ask your question
@@ -30,7 +30,7 @@ server : Sends some geenral server info
 stats : Shows some stats about the Bot
 
 
-#moderation
+# moderation
 Ban : bans a user
 Kick : kick someone
 Mute : mute a muted person
