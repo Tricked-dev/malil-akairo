@@ -55,7 +55,7 @@
 		"zlib-sync": "^0.1.7"
 	},
 	"dependencies": {
-		"alexa-bot-api": "^0.2.1",
+		"alexa-bot-api": "^2.0.1",
 		"asciify-image": "^0.1.6",
 		"centra": "^2.4.2",
 		"chalk": "^4.1.0",
